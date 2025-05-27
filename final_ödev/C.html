@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C.html - Batman Tarihi Yerler Slider</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .carousel {
+      height: 600px;
+      margin: 0 auto;
+    }
+    .carousel-inner {
+      height: 100%;
+    }
+    .carousel-item {
+      height: 100%;
+      background-color: #f8f9fa;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 15px;
+      border-radius: 8px;
+      bottom: 20px;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 15%;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 100px;
+      height: 100px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+      background-size: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <h2 class="mb-4">Batman'ın Tarihi Yerleri - C Sayfası Slider</h2>
+    <div id="batmanSlider" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/hasankeyf.jpg" class="d-block w-100" alt="Hasankeyf">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>Hasankeyf</h5>
+            <p>Dicle Nehri kıyısında, tarihi mağaraları ve köprüsüyle ünlü antik kent.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/malabadi.jpg" class="d-block w-100" alt="Malabadi Köprüsü">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>Malabadi Köprüsü</h5>
+            <p>Artuklu döneminden kalma, taş kemerli tarihi köprü.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/hasankeyf_kalesi.jpg" class="d-block w-100" alt="Hasankeyf Kalesi">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>Hasankeyf Kalesi</h5>
+            <p>Yüksek kayalık üzerinde, şehre hakim konumda tarihi kale.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/zeynelbey.jpg" class="d-block w-100" alt="Zeynel Bey Türbesi">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>Zeynel Bey Türbesi</h5>
+            <p>Timur dönemine ait, silindirik gövdeli anıtsal türbe.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/imam_abdullah.jpg" class="d-block w-100" alt="İmam Abdullah Zaviyesi">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>İmam Abdullah Zaviyesi</h5>
+            <p>Hasankeyf'te yer alan, dini ve tarihi öneme sahip zaviye.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#batmanSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Önceki</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#batmanSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sonraki</span>
+      </button>
+    </div>
+    <div class="mt-4">
+      <a href="A.html" class="btn btn-primary">Ana Sayfa'ya Dön</a>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
